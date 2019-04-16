@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fatties Everywhere email addresses</title>
+  </head>
+  <body>
+    <p>Here is a super huge list of the emails we have collected:</p>
+    <ul>
+      {% for email in email_addresses %}
+      <li>{{ email }}</li>
+      {% endfor %}
+    </ul>
+    <p>THIS IS GONNA ROCK!</p>
+  </body>
+</html>
